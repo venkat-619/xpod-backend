@@ -26,7 +26,7 @@ app.use(morgan('common'));
 
 // cors middleware
 app.use(cors({
-    origin: ['https://twitter-clone-frontend-ebon.vercel.app', 'http://localhost:3000'],
+    origin: ['https://xpod.vercel.app', 'https://xpod-venkat-619.vercel.app', 'http://localhost:3000'],
     methods: ['POST', 'GET', 'PUT', 'DELETE', 'PATCH'],
     credentials: true
 }));
